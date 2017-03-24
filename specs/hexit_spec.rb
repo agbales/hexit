@@ -21,14 +21,6 @@ describe "Hexit class" do
       hexit.must_respond_to :colors
       hexit.colors.must_equal color_array
     end
-
-    it "validates text and color types" do
-      text = "A simple test."
-      color_array = ["#417369", "#6d706c", "#657465", "#73742e"]
-      hexit = Hexit.new(text, color_array)
-      #
-      #
-    end
   end
 
   describe "colors_to_text method" do
