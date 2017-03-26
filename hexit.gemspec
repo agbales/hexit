@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Andrew Bales"]
   s.email       = 'agbales@gmail.com'
   s.files       = ["lib/hexit.rb"]
-  s.homepage    = 'https://github.com/agbales/hexit
-  s.license     = 'MIT'
+  s.homepage    =
+    'https://github.com/agbales/hexit'
+  s.license       = 'MIT'
 end
