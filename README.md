@@ -2,7 +2,7 @@
 
 Hexit provides methods to covert text into a color array or a color array into text.
 
-###Getting Started
+### Getting Started
 
 ```
 gem install hexit
@@ -15,28 +15,28 @@ Hexit.new(text, color_array)
 
 Methods available to manipulate the text and colors:
 
-*For Text:*
-.text_to_colors
-.words_to_colors
+**For Text:**  
+.text_to_colors  
+.words_to_colors  
 
-*For Color Arrays:*
-.colors_to_text
+**For Color Arrays:**    
+.colors_to_text  
 
-###Examples:
+### Examples:
 
-*.text_to_colors*
+**.text_to_colors**
 
 ```ruby
 hexit = Hexit.new("A simple test.")
 hexit.text_to_colors => ["#417369", "#6d706c", "#657465", "#73742e"]
 ```
-*.colors_to_text*
+**.colors_to_text**
 
 ```ruby
 hexit = Hexit.new("", ["#417369", "#6d706c", "#657465", "#73742e"])
 hexit.colors_totext => "Asimpletest."
 ```
-*.words_to_colors*
+**.words_to_colors**
 
 ```ruby
 hexit = Hexit.new("A simple test.")
