@@ -34,7 +34,7 @@ hexit.text_to_colors => ["#417369", "#6d706c", "#657465", "#73742e"]
 
 ```ruby
 hexit = Hexit.new("", ["#417369", "#6d706c", "#657465", "#73742e"])
-hexit.colors_totext => "Asimpletest."
+hexit.colors_to_text => "Asimpletest."
 ```
 **.words_to_colors**
 
